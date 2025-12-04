@@ -12,3 +12,6 @@ def oct_to_bin(octal: str) -> str:
 
 def bin_to_dec(binary: str) -> int:
     return int(binary, 2)
+
+def bin_to_hex(binary: str) -> str:
+    return hex(int(binary, 2))[2:].upper()
