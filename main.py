@@ -3,3 +3,6 @@ def bin_to_oct(binary: str) -> str:
 
 def dec_to_bin(decimal: int) -> str:
     return bin(decimal)[2:]
+
+def hex_to_bin(hex_num: str) -> str:
+    return bin(int(hex_num, 16))[2:]
